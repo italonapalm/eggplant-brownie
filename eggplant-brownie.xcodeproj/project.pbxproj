@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C145BCD1CC1C36100010DA7 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C145BCC1CC1C36100010DA7 /* Meal.swift */; };
+		3C145BCF1CC1C36F00010DA7 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C145BCE1CC1C36F00010DA7 /* Item.swift */; };
+		3C145BD11CC1C65300010DA7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C145BD01CC1C65300010DA7 /* ViewController.swift */; };
+		3C145BD31CC1C78700010DA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C145BD21CC1C78700010DA7 /* Main.storyboard */; };
+		3C7084311CC2E399002B4F63 /* MealsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7084301CC2E399002B4F63 /* MealsTableViewController.swift */; };
 		3CC400001CBF47ED00086363 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CC4FFFE1CBF47ED00086363 /* LaunchScreen.storyboard */; };
 		3CC4000B1CBF47ED00086363 /* eggplant_brownieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC4000A1CBF47ED00086363 /* eggplant_brownieTests.swift */; };
 		3CC400161CBF47ED00086363 /* eggplant_brownieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC400151CBF47ED00086363 /* eggplant_brownieUITests.swift */; };
 		3CC4FFF61CBF47ED00086363 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC4FFF51CBF47ED00086363 /* AppDelegate.swift */; };
-		3CC4FFF81CBF47ED00086363 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC4FFF71CBF47ED00086363 /* ViewController.swift */; };
-		3CC4FFFB1CBF47ED00086363 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CC4FFF91CBF47ED00086363 /* Main.storyboard */; };
 		3CC4FFFD1CBF47ED00086363 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CC4FFFC1CBF47ED00086363 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +37,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C145BCC1CC1C36100010DA7 /* Meal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		3C145BCE1CC1C36F00010DA7 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		3C145BD01CC1C65300010DA7 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3C145BD21CC1C78700010DA7 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		3C2325B21CC028C700F73DC3 /* Linguagem.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Linguagem.playground; sourceTree = "<group>"; };
+		3C7084301CC2E399002B4F63 /* MealsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealsTableViewController.swift; sourceTree = "<group>"; };
 		3CC400011CBF47ED00086363 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3CC400061CBF47ED00086363 /* eggplant-brownieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "eggplant-brownieTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CC4000A1CBF47ED00086363 /* eggplant_brownieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eggplant_brownieTests.swift; sourceTree = "<group>"; };
@@ -43,8 +52,6 @@
 		3CC400171CBF47ED00086363 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3CC4FFF21CBF47ED00086363 /* eggplant-brownie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "eggplant-brownie.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CC4FFF51CBF47ED00086363 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3CC4FFF71CBF47ED00086363 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3CC4FFFA1CBF47ED00086363 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3CC4FFFC1CBF47ED00086363 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3CC4FFFF1CBF47ED00086363 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -74,6 +81,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C145BC91CC1C2E000010DA7 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				3C145BCC1CC1C36100010DA7 /* Meal.swift */,
+				3C145BCE1CC1C36F00010DA7 /* Item.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		3C145BCA1CC1C33100010DA7 /* viewcontrollers */ = {
+			isa = PBXGroup;
+			children = (
+				3C145BD01CC1C65300010DA7 /* ViewController.swift */,
+				3C7084301CC2E399002B4F63 /* MealsTableViewController.swift */,
+			);
+			path = viewcontrollers;
+			sourceTree = "<group>";
+		};
+		3C145BCB1CC1C33100010DA7 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				3C145BD21CC1C78700010DA7 /* Main.storyboard */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
 		3CC400091CBF47ED00086363 /* eggplant-brownieTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -115,9 +148,11 @@
 		3CC4FFF41CBF47ED00086363 /* eggplant-brownie */ = {
 			isa = PBXGroup;
 			children = (
+				3C145BCA1CC1C33100010DA7 /* viewcontrollers */,
+				3C145BCB1CC1C33100010DA7 /* views */,
+				3C145BC91CC1C2E000010DA7 /* models */,
 				3CC4FFF51CBF47ED00086363 /* AppDelegate.swift */,
-				3CC4FFF71CBF47ED00086363 /* ViewController.swift */,
-				3CC4FFF91CBF47ED00086363 /* Main.storyboard */,
+				3C2325B21CC028C700F73DC3 /* Linguagem.playground */,
 				3CC4FFFC1CBF47ED00086363 /* Assets.xcassets */,
 				3CC4FFFE1CBF47ED00086363 /* LaunchScreen.storyboard */,
 				3CC400011CBF47ED00086363 /* Info.plist */,
@@ -243,9 +278,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C145BD31CC1C78700010DA7 /* Main.storyboard in Resources */,
 				3CC400001CBF47ED00086363 /* LaunchScreen.storyboard in Resources */,
 				3CC4FFFD1CBF47ED00086363 /* Assets.xcassets in Resources */,
-				3CC4FFFB1CBF47ED00086363 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +307,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CC4FFF81CBF47ED00086363 /* ViewController.swift in Sources */,
+				3C7084311CC2E399002B4F63 /* MealsTableViewController.swift in Sources */,
+				3C145BCF1CC1C36F00010DA7 /* Item.swift in Sources */,
+				3C145BCD1CC1C36100010DA7 /* Meal.swift in Sources */,
+				3C145BD11CC1C65300010DA7 /* ViewController.swift in Sources */,
 				3CC4FFF61CBF47ED00086363 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,14 +331,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3CC4FFF91CBF47ED00086363 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3CC4FFFA1CBF47ED00086363 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3CC4FFFE1CBF47ED00086363 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -473,6 +503,7 @@
 				3CC4001C1CBF47EE00086363 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3CC4001D1CBF47EE00086363 /* Build configuration list for PBXNativeTarget "eggplant-brownieTests" */ = {
 			isa = XCConfigurationList;
@@ -481,6 +512,7 @@
 				3CC4001F1CBF47EE00086363 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3CC400201CBF47EE00086363 /* Build configuration list for PBXNativeTarget "eggplant-brownieUITests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +521,7 @@
 				3CC400221CBF47EE00086363 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3CC4FFED1CBF47ED00086363 /* Build configuration list for PBXProject "eggplant-brownie" */ = {
 			isa = XCConfigurationList;
