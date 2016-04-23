@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MealsTableViewController: UITableViewController {
+class MealsTableViewController: UITableViewController, AddAMealDelegate {
     
     var meals = [Meal(name: "Eggplant brownie", happiness: 5), Meal(name: "Zucchini Muffin", happiness: 3)]
 
@@ -20,10 +20,6 @@ class MealsTableViewController: UITableViewController {
     func add(meal: Meal) {
         meals.append(meal)
         tableView.reloadData()
-    }
-    
-    func sei(meal: Meal) {
-        print(meal.name)
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
@@ -47,9 +43,36 @@ class MealsTableViewController: UITableViewController {
         let row = indexPath.row
         let meal = meals[row]
         
-        var cell = UITableViewCell(style: UITableViewCellStyle.Default, reuseIdentifier: nil)
+        let cell = UITableViewCell(style: UITableViewCellStyle.Default, reuseIdentifier: nil)
         cell.textLabel?.text = meal.name
+        
+        let longPress = UILongPressGestureRecognizer(target: self, action: #selector(MealsTableViewController.showDetails(_:)))
+        cell.addGestureRecognizer(longPress)
 
         return cell
     }
+    
+    func showDetails(recognizer : UILongPressGestureRecognizer) {
+        if recognizer.state == UIGestureRecognizerState.Began {
+            let cell = recognizer.view as! UITableViewCell
+            let indexPath = tableView.indexPathForCell(cell)
+            
+            if indexPath == nil {
+                return
+            }
+            
+            let row = indexPath!.row
+            let meal = meals[row]
+            
+            RemoveMealController(controller: self).show(meal, handler: {action in
+                self.meals.removeAtIndex(row)
+                self.tableView.reloadData()
+            })
+        }
+        
+    }
+    
+    
+    
+    
 }
